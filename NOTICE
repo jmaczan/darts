@@ -1,0 +1,8 @@
+NOTICE
+------
+
+This project is based on the "DARTS: Differentiable Architecture Search" repository
+(https://github.com/quark0/darts), which is licensed under the Apache License 2.0.
+
+Modifications have been made by Jędrzej Maczan, starting in 2024, 
+including upgrades to PyTorch 2.x and integration of PyTorch Lightning.
