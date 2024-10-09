@@ -4,7 +4,7 @@
 
 This project is a fork of the original [DARTS repository](https://github.com/quark0/darts). The goal is to enable further research and development in a field of Neural Architecture Search, through a gradual upgrade and improvement of the original Differentiable Architecture Search implementation
 
-Right now, the modifications include:
+The modifications include:
 - Upgrading code to PyTorch 2.x
 - Rewriting the code to use PyTorch Lightning for training and architecture search
 - Make things optimized for modern hardware
@@ -41,7 +41,7 @@ If you use this project in your research, please use the following citation:
 ```
 
 Please strongly consider to cite the original [DARTS paper](https://arxiv.org/abs/1806.09055) as well:
-```
+```bibtex
 @article{liu2018darts,
   title={DARTS: Differentiable Architecture Search},
   author={Liu, Hanxiao and Simonyan, Karen and Yang, Yiming},
