@@ -38,7 +38,7 @@ If you use this project in your research, please use the following citation:
 ```bibtex
 @misc{Maczan_DARTS_2024,
   title = "Lightning Differentiable Architecture Search: A modern PyTorch Lightning reimplementation of Differentiable Architecture Search (DARTS)",
-  author = "{Maczan, Jędrzej Paweł}",
+  author = "Maczan, Jędrzej Paweł",
   howpublished = "\url{https://github.com/jmaczan/darts}",
   year = 2024,
   publisher = {GitHub}
