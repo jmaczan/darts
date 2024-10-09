@@ -1,4 +1,6 @@
-# Differentiable Architecture Search
+# Lightning Differentiable Architecture Search
+
+> A modern PyTorch Lightning reimplementation of Differentiable Architecture Search
 
 This project is a fork of the original [DARTS repository](https://github.com/quark0/darts). The goal is to enable further research and development in a field of Neural Architecture Search, through a gradual upgrade and improvement of the original Differentiable Architecture Search implementation
 
@@ -16,20 +18,21 @@ The original paper:
 <p align="center">
   <img src="img/darts.png" alt="darts" width="48%">
 </p>
+
 The algorithm is based on continuous relaxation and gradient descent in the architecture space. It is able to efficiently design high-performance convolutional architectures for image classification (on CIFAR-10 and ImageNet) and recurrent architectures for language modeling (on Penn Treebank and WikiText-2). Only a single GPU is required.
 
 ## Requirements
-```
-Python >= 3.10, PyTorch >= 2.4.1, PyTorch Lightning >= 2.4.0"
-```
+- Python >= 3.10
+- PyTorch >= 2.4.1
+- PyTorch Lightning >= 2.4.0
+
 
 ## Cite
 
-If you use this repository in your research, please use the following citation:
-
+If you use this project in your research, please use the following citation:
 ```bibtex
 @misc{Maczan_DARTS_2024,
-  title = "Modern PyTorch Lightning reimplementation of Differentiable Architecture Search (DARTS)",
+  title = "Lightning Differentiable Architecture Search: A modern PyTorch Lightning reimplementation of Differentiable Architecture Search (DARTS)",
   author = "{Maczan, Jędrzej Paweł}",
   howpublished = "\url{https://github.com/jmaczan/darts}",
   year = 2024,
@@ -46,3 +49,11 @@ Please strongly consider to cite the original [DARTS paper](https://arxiv.org/ab
   year={2018}
 }
 ```
+
+## License
+Apache License 2.0
+
+## Authors
+Original DARTS paper and implementation: Hanxiao Liu, Karen Simonyan, Yiming Yang
+
+Lightning Differentiable Architecture Search: Jędrzej Maczan
